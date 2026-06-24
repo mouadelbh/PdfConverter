@@ -1,0 +1,428 @@
+{
+  "_description": "Formatting rules extracted from 'target document.docx'. All values are converted from OOXML units to standard typographic units. OOXML sizes (w:sz) are in half-points, so divide by 2 for pt. Spacing/margins (w:w, w:pgMar) are in twips (1/20 pt), so divide by 20 for pt.",
+
+  "page_setup": {
+    "page_width_twips": 11906,
+    "page_height_twips": 16838,
+    "page_width_mm": 210,
+    "page_height_mm": 297,
+    "page_width_inches": 8.27,
+    "page_height_inches": 11.69,
+    "page_format": "A4",
+    "orientation": "portrait",
+
+    "margins": {
+      "_note": "All margins are 1417 twips = 70.85pt = 2.5cm = ~1 inch",
+      "top_twips": 1417,
+      "bottom_twips": 1417,
+      "left_twips": 1417,
+      "right_twips": 1417,
+      "top_pt": 70.85,
+      "bottom_pt": 70.85,
+      "left_pt": 70.85,
+      "right_pt": 70.85,
+      "top_mm": 25.0,
+      "bottom_mm": 25.0,
+      "left_mm": 25.0,
+      "right_mm": 25.0,
+      "top_inches": 0.98,
+      "bottom_inches": 0.98,
+      "left_inches": 0.98,
+      "right_inches": 0.98
+    },
+
+    "header_distance_twips": 708,
+    "header_distance_pt": 35.4,
+    "header_distance_mm": 12.5,
+    "footer_distance_twips": 708,
+    "footer_distance_pt": 35.4,
+    "footer_distance_mm": 12.5,
+
+    "columns": 1,
+    "page_numbering_start": 5
+  },
+
+  "default_document_font": {
+    "_note": "docDefaults: default font size is 24 half-pts = 12pt. Language is French.",
+    "size_half_points": 24,
+    "size_pt": 12,
+    "language": "fr"
+  },
+
+  "fonts_used": [
+    "Avenir",
+    "Didot",
+    "Times New Roman",
+    "Calibri",
+    "Georgia"
+  ],
+
+  "styles": {
+    "body_text": {
+      "_description": "The dominant paragraph style used throughout the document body. Virtually every content paragraph uses this.",
+      "font_family": "Avenir",
+      "font_size_half_points": 20,
+      "font_size_pt": 10,
+      "font_color_hex": "000000",
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "small_caps": false,
+      "alignment": "justify",
+      "line_spacing_twips": 240,
+      "line_spacing_rule": "auto",
+      "line_spacing_multiple": 1.0,
+      "space_before_twips": 0,
+      "space_after_twips": 0,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "indent_left_twips": 0,
+      "indent_right_twips": 0,
+      "indent_first_line_twips": 0,
+      "indent_left_pt": 0,
+      "indent_right_pt": 0,
+      "indent_first_line_pt": 0,
+      "widow_control": true,
+      "keep_next": false,
+      "keep_lines": false
+    },
+
+    "article_title": {
+      "_description": "The main paper title, displayed in the right column of the first-page table layout. Bold, large, left-aligned.",
+      "font_family": "Avenir",
+      "font_size_half_points": 40,
+      "font_size_pt": 20,
+      "font_color_hex": "000000",
+      "bold": true,
+      "italic": false,
+      "alignment": "left",
+      "space_after_twips": 120,
+      "space_after_pt": 6,
+      "line_spacing_twips": 240,
+      "line_spacing_rule": "auto"
+    },
+
+    "heading_1": {
+      "_description": "Heading 1 style defined in styles.xml. Center-aligned, Didot bold, 16pt, with 375 twips space after.",
+      "font_family": "Didot",
+      "font_size_half_points": 32,
+      "font_size_pt": 16,
+      "font_color_hex": "000000",
+      "bold": true,
+      "italic": false,
+      "alignment": "center",
+      "space_before_twips": 0,
+      "space_after_twips": 375,
+      "space_before_pt": 0,
+      "space_after_pt": 18.75,
+      "line_spacing_twips": 240,
+      "line_spacing_rule": "auto"
+    },
+
+    "heading_2": {
+      "_description": "Heading 2 style. Center-aligned, Didot bold, 12pt, with 375 twips space after. Used for major section headings like 'Abstract', 'Introduction', etc.",
+      "font_family": "Didot",
+      "font_size_half_points": 24,
+      "font_size_pt": 12,
+      "font_color_hex": "000000",
+      "bold": true,
+      "italic": false,
+      "alignment": "center",
+      "space_before_twips": 0,
+      "space_after_twips": 375,
+      "space_before_pt": 0,
+      "space_after_pt": 18.75,
+      "line_spacing_twips": 240,
+      "line_spacing_rule": "auto"
+    },
+
+    "heading_3": {
+      "_description": "Heading 3 style. Calibri, dark blue color, inherits normal size. Used for sub-section headings.",
+      "font_family": "Calibri",
+      "font_size_pt": 12,
+      "font_color_hex": "1f3863",
+      "bold": false,
+      "italic": false,
+      "alignment": "left",
+      "space_before_twips": 40,
+      "space_before_pt": 2,
+      "keep_next": true,
+      "keep_lines": true,
+      "line_spacing_rule": "auto"
+    },
+
+    "open_access_label": {
+      "_description": "The 'OPEN ACCESS' label at the top of the metadata column. Bold italic, Avenir 10pt.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "bold": true,
+      "italic": true,
+      "alignment": "justify"
+    },
+
+    "symposium_notice": {
+      "_description": "The italic notice about paper presentation (e.g., symposium info). Avenir 10pt italic, not bold.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "bold": false,
+      "italic": true,
+      "alignment": "justify"
+    },
+
+    "correspondence_label": {
+      "_description": "The '* Correspondence:' label. Avenir 10pt bold.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "bold": true,
+      "italic": false,
+      "alignment": "justify"
+    },
+
+    "correspondence_email": {
+      "_description": "The email address under correspondence. Avenir 8pt normal.",
+      "font_family": "Avenir",
+      "font_size_half_points": 16,
+      "font_size_pt": 8,
+      "bold": false,
+      "italic": false,
+      "alignment": "justify"
+    },
+
+    "copyright_line": {
+      "_description": "Copyright and license line. Mix of bold (© symbol, 'license' label, 'DOI' label) and normal (value text). Avenir 10pt.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "alignment": "justify",
+      "label_bold": true,
+      "value_bold": false
+    },
+
+    "citation_reference": {
+      "_description": "The 'To cite this paper:' section. Avenir 10pt, with journal title in italics.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "label_bold": true,
+      "label_italic": false,
+      "journal_name_italic": true,
+      "alignment": "justify"
+    },
+
+    "author_name": {
+      "_description": "Author names in the right column of the first-page table. Avenir, bold, 10pt.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "bold": true,
+      "italic": false,
+      "alignment": "left"
+    },
+
+    "author_affiliation": {
+      "_description": "Author affiliation/institution text. Avenir, normal (not bold), 10pt.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "bold": false,
+      "italic": false,
+      "alignment": "left"
+    },
+
+    "abstract_heading": {
+      "_description": "Uses Heading 2 style: Didot, bold, 12pt, centered, with 18.75pt space after.",
+      "inherits": "heading_2"
+    },
+
+    "abstract_body": {
+      "_description": "Abstract text uses body_text style: Avenir 10pt, justified, single-spaced.",
+      "inherits": "body_text"
+    },
+
+    "keywords_label": {
+      "_description": "The 'Keywords:' label. Bold variant of body text.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "bold": true,
+      "italic": false,
+      "alignment": "justify"
+    },
+
+    "keywords_value": {
+      "_description": "The keyword values after the label. Normal weight, italic.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "bold": false,
+      "italic": true,
+      "alignment": "justify"
+    },
+
+    "section_heading": {
+      "_description": "Main section headings (e.g., 'I. Introduction'). Uses Heading 2 style.",
+      "inherits": "heading_2"
+    },
+
+    "body_paragraph": {
+      "_description": "Normal body paragraphs within sections.",
+      "inherits": "body_text"
+    },
+
+    "in_text_emphasis": {
+      "_description": "Italic emphasis within body paragraphs.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "bold": false,
+      "italic": true
+    },
+
+    "in_text_bold": {
+      "_description": "Bold emphasis within body paragraphs.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "bold": true,
+      "italic": false
+    },
+
+    "footnote_reference": {
+      "_description": "Superscript footnote numbers in body text.",
+      "font_family": "Avenir",
+      "font_size_pt": 10,
+      "vertical_align": "superscript"
+    },
+
+    "reference_list_item": {
+      "_description": "Reference list entries at the end of the document. Avenir 10pt, justified.",
+      "inherits": "body_text"
+    }
+  },
+
+  "first_page_layout": {
+    "_description": "The first page uses a borderless 2-column table to create a metadata sidebar (left) and title/author area (right).",
+    "layout": "table",
+    "table_width_twips": 9062,
+    "table_width_mm": 160,
+    "table_borders": "none",
+    "table_cell_margins": {
+      "top_twips": 0,
+      "bottom_twips": 0,
+      "left_twips": 108,
+      "right_twips": 108,
+      "left_pt": 5.4,
+      "right_pt": 5.4
+    },
+    "left_column": {
+      "_description": "Metadata sidebar: OPEN ACCESS label, symposium notice, correspondence, copyright, DOI, citation",
+      "width_twips": 2972,
+      "width_mm": 52.4,
+      "width_proportion": 0.328,
+      "content_order": [
+        "open_access_label",
+        "symposium_notice",
+        "correspondence",
+        "conduct_notice",
+        "copyright_line",
+        "license",
+        "doi",
+        "citation"
+      ]
+    },
+    "right_column": {
+      "_description": "Main content: article title, author names, affiliations, then abstract/keywords and body text",
+      "width_twips": 6090,
+      "width_mm": 107.5,
+      "width_proportion": 0.672,
+      "content_order": [
+        "article_title",
+        "author_names",
+        "author_affiliations",
+        "abstract",
+        "keywords",
+        "body_sections"
+      ]
+    }
+  },
+
+  "header": {
+    "_description": "Page header: page number right-aligned, Times New Roman 12pt. Header distance from page edge is 12.5mm (708 twips).",
+    "odd_page": {
+      "content": "PAGE_NUMBER",
+      "alignment": "right",
+      "font_family": "Times New Roman",
+      "font_size_pt": 12
+    },
+    "even_page": {
+      "_description": "Even page header has different content (header2.xml) - potentially journal/author info on the left side.",
+      "font_family": "Times New Roman",
+      "font_size_pt": 12
+    }
+  },
+
+  "footer": {
+    "_description": "Footer: 'published on [link] : [date]' left-aligned, Avenir 10pt.",
+    "font_family": "Avenir",
+    "font_size_pt": 10,
+    "alignment": "left",
+    "font_color_hex": "000000",
+    "link_color_hex": "0563c1",
+    "link_underline": true,
+    "content_template": "published on {publisher_link} : {date}"
+  },
+
+  "table_styling": {
+    "_description": "General table styles used for data tables within the article.",
+    "default_cell_margins": {
+      "top_twips": 0,
+      "bottom_twips": 0,
+      "left_twips": 108,
+      "right_twips": 108,
+      "left_pt": 5.4,
+      "right_pt": 5.4
+    },
+    "grid_table_style": {
+      "_description": "Table3 - styled with alternating row banding and bold first row/col.",
+      "row_banding": true,
+      "band_fill_color_hex": "f2f2f2",
+      "first_row_bold": true,
+      "first_row_small_caps": true,
+      "first_row_bottom_border": {
+        "color_hex": "7f7f7f",
+        "width_eighths_pt": 4,
+        "style": "single"
+      },
+      "first_col_bold": true,
+      "first_col_small_caps": true,
+      "first_col_right_border": {
+        "color_hex": "7f7f7f",
+        "width_eighths_pt": 4,
+        "style": "single"
+      }
+    }
+  },
+
+  "settings": {
+    "embed_true_type_fonts": true,
+    "default_tab_stop_twips": 720,
+    "default_tab_stop_pt": 36,
+    "default_tab_stop_inches": 0.5,
+    "compatibility_mode": 15
+  },
+
+  "spacing_rules_summary": {
+    "_description": "Quick-reference spacing rules for consistent PDF generation.",
+    "body_line_spacing": "single (1.0x, 240 twips line height = auto)",
+    "body_space_before": "0pt",
+    "body_space_after": "0pt",
+    "heading_1_space_after": "18.75pt (375 twips)",
+    "heading_1_space_before": "0pt",
+    "heading_2_space_after": "18.75pt (375 twips)",
+    "heading_2_space_before": "0pt",
+    "heading_3_space_before": "2pt (40 twips)",
+    "paragraph_first_line_indent": "0pt (no indent)",
+    "paragraph_left_indent": "0pt",
+    "paragraph_right_indent": "0pt"
+  },
+
+  "color_palette": {
+    "body_text": "#000000",
+    "heading_3_text": "#1f3863",
+    "hyperlink": "#0563c1",
+    "table_band_fill": "#f2f2f2",
+    "table_border": "#7f7f7f"
+  }
+}
